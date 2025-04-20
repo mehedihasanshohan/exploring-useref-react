@@ -1,6 +1,8 @@
 import { useRef, useState } from 'react';
 import { flushSync } from 'react-dom';
 import '../styles/catCarouselStyles.css'
+
+
 export default function CatCarousel() {
   const selectedRef = useRef(null);
   const [index, setIndex] = useState(0);

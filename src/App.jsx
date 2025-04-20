@@ -12,7 +12,8 @@ function App() {
     {/* <Form></Form> */}
     {/* <CatFriends></CatFriends> */}
     {/* <VideoPlayer></VideoPlayer> */}
-    <CatCarousel></CatCarousel>
+    {/* <CatCarousel></CatCarousel> */}
+    <Counter></Counter>
    </>
   )
 }
