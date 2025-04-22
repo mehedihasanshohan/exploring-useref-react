@@ -2,6 +2,7 @@ import './App.css'
 import CatCarousel from './components/CatCarousel'
 import CatFriends from './components/CatFriends'
 import Form from './components/Form'
+import StopWatch from './components/StopWatch'
 import VideoPlayer from './components/VideoPlayer'
 
 function App() {
@@ -13,7 +14,9 @@ function App() {
     {/* <CatFriends></CatFriends> */}
     {/* <VideoPlayer></VideoPlayer> */}
     {/* <CatCarousel></CatCarousel> */}
-    <Counter></Counter>
+    {/* <Counter></Counter> */}
+    <StopWatch></StopWatch>
+
    </>
   )
 }
